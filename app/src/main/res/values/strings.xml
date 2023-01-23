@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Clean Home</string>
+    <string name="welcome_message">Selamat Datang di Clean Home</string>
+    <string name="register_button">Register</string>
+    <string name="login_button">Login</string>
+    <string name="register_heading">Register</string>
+    <string name="login_heading">Login</string>
+</resources>
