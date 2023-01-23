@@ -2,6 +2,7 @@ package com.kodegakure.sistempemesanancleaningservice.api
 
 import com.kodegakure.sistempemesanancleaningservice.model.Register
 import com.kodegakure.sistempemesanancleaningservice.model.Login
+import com.kodegakure.sistempemesanancleaningservice.model.LoginResponse
 import com.kodegakure.sistempemesanancleaningservice.model.Response
 import retrofit2.Call
 import retrofit2.Retrofit
@@ -30,7 +31,7 @@ interface Endpoint {
 
     @Headers("Accept: application/json")
     @POST("login")
-    fun login(@Body loginRequest: Login): Call<Response>
+    fun login(@Body loginRequest: Login): Call<LoginResponse>
 
 
 }
